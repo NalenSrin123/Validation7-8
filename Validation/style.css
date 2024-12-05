@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.448),rgba(44, 44, 246, 0.415)), url('https://i.pinimg.com/736x/23/d4/6a/23d46a541602fa24ff96f07bbf522253.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 70px;
+}
+form{
+    background-color: #ffffffbf;
+    box-shadow: rgba(255, 255, 255, 0.521) 0px 5px 15px;
+    border-radius: 10px;
+    width: 380px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px;
+}
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+.fa-eye, .fa-eye-slash{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+.fa-eye-slash{
+   visibility: hidden;
+}
+form input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 7px 10px;
+    border-bottom:2px solid #33333388;
+    font-size: 18px;
+}
+form .error input{
+    border-bottom: 2px solid red;
+}
+form .success input{
+    border-bottom: 2px solid rgb(18, 210, 18);
+}
+.btnSignup{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(9, 9, 237, 0.841);
+    color: #fff;
+    font-size: 18px;
+}
+.btnSignup:hover{
+    background-color: rgba(11, 11, 157, 0.841);  
+}
